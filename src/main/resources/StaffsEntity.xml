@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="AssgmentJava5.Model.StaffsEntity">
+        <table name="staffs" schema="assjava5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="Id" precision="11"/>
+            </id>
+            <basic name="name">
+                <column name="Name" nullable="false" length="45"/>
+            </basic>
+            <basic name="gender">
+                <column name="Gender" nullable="false" length="45"/>
+            </basic>
+            <basic name="birthday">
+                <column name="Birthday" nullable="false" length="45"/>
+            </basic>
+            <basic name="photo">
+                <column name="Photo" nullable="false" length="45"/>
+            </basic>
+            <basic name="email">
+                <column name="Email" nullable="false" length="45"/>
+            </basic>
+            <basic name="phone">
+                <column name="Phone" nullable="false" length="45"/>
+            </basic>
+            <basic name="salary">
+                <column name="Salary" nullable="false" length="45"/>
+            </basic>
+            <basic name="notes">
+                <column name=" Notes" nullable="false" length="45"/>
+            </basic>
+            <basic name="departld">
+                <column name="Departld" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

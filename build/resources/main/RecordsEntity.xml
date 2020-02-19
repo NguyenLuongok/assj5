@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="AssgmentJava5.Model.RecordsEntity">
+        <table name="records" schema="assjava5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="Id" precision="11"/>
+            </id>
+            <basic name="type">
+                <column name="Type" nullable="false" precision="1"/>
+            </basic>
+            <basic name="reason">
+                <column name="Reason" nullable="false" length="45"/>
+            </basic>
+            <basic name="date">
+                <column name="Date" nullable="false" length="45"/>
+            </basic>
+            <basic name="staffid">
+                <column name="Staffid" nullable="false" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

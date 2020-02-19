@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="assjava5@localhost" uuid="acaf1df5-d717-4194-819a-39c4c09e3c33">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/assjava5</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="org.hibernate.tutorial.jpa/Hibernate" uuid="1c344c95-0131-41f4-b17c-05013d5122e0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/nguye/Downloads/ASSJ5/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/assjava5</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MongoDemo@luongndph07792-kf4fl.mongodb.net" uuid="42eb14b2-c85f-44b2-b84b-066910f5d6a9">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://luong:4mwpVnMldTDiITAs@luongndph07792-kf4fl.mongodb.net/MongoDemo?retryWrites=true&amp;w=majority</jdbc-url>
+    </data-source>
+  </component>
+</project>
